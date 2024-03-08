@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Road Safety System</string>
+    <string name="google_maps_key">AIzaSyAF4A1i9h7dYv2HNpZzdSYJOy8cOcQ5r7g</string>
+
+    <string-array name="district_array">
+        <item>District 1</item>
+        <item>District 2</item>
+        <item>District 3</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
+    <string-array name="accident_zone_array">
+        <item>Accident Zone Type 1</item>
+        <item>Accident Zone Type 2</item>
+        <item>Accident Zone Type 3</item>
+        <!-- Add more items as needed -->
+    </string-array>
+
 </resources>

@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.ka.roadsafetysystem" />
+                  <option name="mobileSdkAppId" value="1:6155640390:android:105c9ec8152db731f8b447" />
+                  <option name="projectId" value="road-safety-system-efdc3" />
+                  <option name="projectNumber" value="6155640390" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#b31aff"
+    android:gravity="center_vertical"
+   android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Your header content goes here -->
+    <LinearLayout
+        android:layout_width="70dp"
+        android:gravity="center"
+        android:background="@drawable/circle"
+        android:layout_height="70dp">
+        <ImageView
+            android:id="@+id/nav_header_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/user" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/nav_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/nav_header_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Subtitle"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"/>
+</LinearLayout>
