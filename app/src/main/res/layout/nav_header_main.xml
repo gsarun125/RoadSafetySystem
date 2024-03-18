@@ -2,10 +2,10 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="160dp"
+    android:layout_height="200dp"
     android:background="#b31aff"
     android:gravity="center_vertical"
-   android:layout_marginTop="15dp"
+
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -13,13 +13,14 @@
     <LinearLayout
         android:layout_width="70dp"
         android:gravity="center"
+        android:layout_marginTop="30dp"
         android:background="@drawable/circle"
         android:layout_height="70dp">
         <ImageView
             android:id="@+id/nav_header_image"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/user" />
+            android:src="@drawable/direction" />
     </LinearLayout>
 
 
@@ -27,7 +28,7 @@
         android:id="@+id/nav_header_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Name"
+        android:text="Road Safety System"
         android:layout_marginTop="10dp"
         android:textColor="#FFFFFF"
         android:textSize="16sp"/>
@@ -36,7 +37,7 @@
         android:id="@+id/nav_header_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Subtitle"
+        android:text="LEAVE SOONER, DRIVE SLOWER, LIVE LONGER"
         android:layout_marginTop="10dp"
         android:textColor="#FFFFFF"
         android:textSize="14sp"/>
